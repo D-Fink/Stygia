@@ -1,0 +1,50 @@
+/* font-family: 'MedievalSharp', cursive;
+font-family: 'Rock Salt', cursive; */
+
+*{
+    box-sizing: border-box;
+}
+
+.wrapper{
+    max-width: 1200px;
+    margin: auto;
+    border:1px solid white;
+    background: url("../img/grass.jpg");
+}
+
+header{
+    display:flex;
+}
+
+nav{
+    background: indigo;
+    background-image: url("../img/lotus.png");
+    background-repeat: no-repeat;
+    background-position: 95%;
+    border: 1px solid white;
+    width:1198px;
+    height:80px;
+    position:fixed;
+
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+a{
+    margin: 40px 80px;
+    width: 80px;
+    height: 30px;
+    text-decoration: none;
+    border: 1px double white;
+    border-radius: 20px;
+    font-family: 'MedievalSharp', cursive;
+    font-weight: bold;
+    text-align: center;
+    background: mediumorchid;
+}
+
+div {
+    height: 2000px;
+    background-color: rgba (148, 0, 211, 0.8);
+}
